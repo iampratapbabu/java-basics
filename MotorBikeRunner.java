@@ -20,6 +20,8 @@ public class MotorBikeRunner {
 		honda.increaseSpeed(40);
 		System.out.println(honda.getSpeed());
 		
+		System.out.println(apache);
+		
 	}
 
 }
