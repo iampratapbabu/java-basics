@@ -3,6 +3,10 @@ package project1;
 import java.util.Arrays;
 
 public class ArraysAndArrayList {
+	
+	static void sum(int... values) {
+		System.out.println(Arrays.toString(values));
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -37,6 +41,10 @@ public class ArraysAndArrayList {
 		
 		// to compare two arrays
 		System.out.println(Arrays.equals(prefillArray, marks));
+		
+		//variable arguments
+		sum(2,3,4); //printing through sum function where we are taking many inputs
+		
 		
 
 	}
