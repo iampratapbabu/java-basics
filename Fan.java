@@ -28,7 +28,13 @@ public class Fan {
 	}
 	
 	void changeSpeed(int speed) {
-		this.speed=speed;
+		if(this.isOn) {
+			this.speed=speed;
+		}
+		else {
+			System.out.println("Fan is swithoff first turn it on");
+		}
+		
 	}
 	
 	//getters
