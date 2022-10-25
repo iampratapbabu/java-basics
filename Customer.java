@@ -34,7 +34,7 @@ public class Customer {
 	}
 	
 	public String toString() {
-		return String.format("Name=[%s] HomeAdd=[%s] WorkAdd=[%s]",name,homeAddress,workAddress);
+		return String.format("Name=[%s] HomeAdd=[%s] WorkAdd=[%s]",name,homeAddress.toString(),workAddress.toString());
 	}
 	
 

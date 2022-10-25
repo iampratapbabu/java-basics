@@ -4,16 +4,13 @@ public class Address {
 	//state
 	private String line1;
 	private String city;
-	private int zip;
 	private String state;
 	
 	
 	//constructor
-	public Address(String line1, String city, int zip, String state) {
-		super();
+	public Address(String line1, String city, String state) {
 		this.line1 = line1;
 		this.city = city;
-		this.zip = zip;
 		this.state = state;
 	}
 	
